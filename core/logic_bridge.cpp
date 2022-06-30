@@ -374,6 +374,8 @@ void UTIL_ConsolePrint(const char *fmt, ...)
 #define GAMEFIX "2.csgo"
 #elif SOURCE_ENGINE == SE_CONTAGION
 #define GAMEFIX "2.contagion"
+#elif SOURCE_ENGINE == SE_MOCK
+#define GAMEFIX "2.mock"
 #else
 #define GAMEFIX "2.ep1"
 #endif
